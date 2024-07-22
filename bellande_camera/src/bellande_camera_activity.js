@@ -69,7 +69,6 @@ export class bellande_camera_activity {
 
             mediaRecorder.start();
 
-            // Stop recording after 10 seconds (you can adjust this or trigger stop manually)
             setTimeout(() => mediaRecorder.stop(), 10000);
         } catch (error) {
             console.error("Error capturing video:", error);
@@ -79,7 +78,7 @@ export class bellande_camera_activity {
     async streamVideo(videoBlob) {
         try {
             const response = await this.cameraService.streamVideo(videoBlob, this.connectivityPasscode);
-            console.log("Video streamed successfully:", response);
+            console.log("Video streamed successfully. Status:", response.getStatus(), "Message:", response.getMessage());
         } catch (error) {
             console.error("Failed to stream video:", error);
         }
@@ -88,8 +87,7 @@ export class bellande_camera_activity {
     async receiveVideoStream() {
         try {
             const stream = await this.cameraService.receiveVideoStream(this.connectivityPasscode);
-            console.log("Received video stream:", stream);
-            // Handle the received stream (e.g., display it in a video element)
+            console.log("Received video stream");
         } catch (error) {
             console.error("Failed to receive video stream:", error);
         }

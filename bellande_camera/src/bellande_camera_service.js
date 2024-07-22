@@ -15,6 +15,8 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  **/
 
+import { BellandeResponse, RequestBody } from './bellande_camera_api.js';
+
 export class bellande_camera_service {
     constructor(apiUrl, streamEndpoint, apiAccessKey, cameraApi) {
         this.cameraApi = cameraApi;
