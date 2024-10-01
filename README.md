@@ -5,6 +5,20 @@
 - Works in any programming languages or scripting languages
 - Extremely Secure over HTTPS
 
+## External Sensors Intergrations
+**Camera**
+  - Intergrated with any Camera System
+
+**Lidar**
+  - Intergrated with any Lidar System
+
+**Radar**
+  - Intergrated with any Radar System
+
+**BVS Sensor (B in BVS Stands for Bellande)**
+  - Intergrated in any System
+
+
 # Check Website All Information And Accessibility
 - [![Organization Website](https://img.shields.io/badge/Explore%20Our-Website-0099cc?style=for-the-badge)](https://robotics-sensors.github.io)
 - Checkout our research organization for information, information on this repository is limited as well as all the configs are demos
