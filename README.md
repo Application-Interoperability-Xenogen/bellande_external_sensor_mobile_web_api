@@ -1,5 +1,17 @@
 # 🤖 Bellande External Sensor Mobile Web Api Package
 
+# Bellande Robotic Operating System Architecture
+- https://git.bellande-technologies.com/BRSRI/bellande_robotic_system_operating_architecture
+- https://github.com/Robotics-Sensors/bellande_robotic_system_operating_architecture
+- https://gitlab.com/Bellande-Robotics-Sensors-Research-Innovation-Center/bellande_robotic_system_operating_architecture
+- https://bitbucket.org/bellande-robotics-sensors/bellande_robotic_system_operating_architecture
+
+# Bellande Configs System
+- https://git.bellande-technologies.com/BRSRI/bellande_configs_system
+- https://github.com/Robotics-Sensors/bellande_configs_system
+- https://gitlab.com/Bellande-Robotics-Sensors-Research-Innovation-Center/bellande_configs_system
+- https://bitbucket.org/bellande-robotics-sensors/bellande_configs_system
+
 # Benifits of Using the Bellande API's
 - Works in any framework
 - Works in any programming languages or scripting languages
